@@ -1,14 +1,14 @@
-# SaaS WebApp with Stripe Integration
+# SaaSGo , a SaaS WebApp with Stripe Integration
 
-Welcome to the repository of our SaaS WebApp, a comprehensive platform that offers various subscription plans through the Stripe payment gateway. This application allows users to browse different services, manage subscriptions, and securely process payments.
+Welcome to the repository of our SaaSGo WebApp, a comprehensive platform that offers various subscription plans through the Stripe payment gateway. This application allows users to browse different services, manage subscriptions, and securely process payments.
 
 ## Website
 
-Visit our live application: [SaaS WebApp](https://saasapp-1ql7.onrender.com/home)
+Visit our live application: [SaaSGo WebApp](https://saas-tgo.vercel.app/)
 
 ## Demo Video
 
-For a detailed walkthrough, watch our [Implementation Video](https://youtu.be/vxD8vmYAmUg).
+For a detailed walkthrough, watch our [Implementation Video]().
 
 ## Features
 
@@ -38,6 +38,19 @@ For a detailed walkthrough, watch our [Implementation Video](https://youtu.be/vx
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/knehaa/subscription-services.git
-2. **Navigate to the Directory**
+2. **Install Dependencies**
+   * For frontend : 
     ```bash
-3. 
+   cd frontend
+   npm install
+   * For backend :
+   ```bash
+   cd backend
+   npm install
+3. **Configure Environment Variables**
+   .env backend
+   ```bash
+   DATABASE_URL //is mongodb url
+   SECRET=ThisIsOurLittleSecret
+   STRIPE_SECRET_KEY
+   .env
