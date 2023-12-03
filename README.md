@@ -1,6 +1,6 @@
-# SaaSGo , a SaaS WebApp with Stripe Integration
+# SAASGo , a SaaS WebApp with Stripe Integration
 
-Welcome to the repository of our SaaSGo WebApp, a comprehensive platform that offers various subscription plans through the Stripe payment gateway. This application allows users to browse different services, manage subscriptions, and securely process payments.
+Welcome to the repository of our SAASGo WebApp, a comprehensive platform that offers various subscription plans through the Stripe payment gateway. This application allows users to browse different services, manage subscriptions, and securely process payments.
 
 ## Website
 
@@ -39,18 +39,43 @@ For a detailed walkthrough, watch our [Implementation Video]().
    ```bash
    git clone https://github.com/knehaa/subscription-services.git
 2. **Install Dependencies**
-   * For frontend : 
     ```bash
+   //For frontend : 
    cd frontend
    npm install
-   * For backend :
-   ```bash
+
+   // For backend :
    cd backend
    npm install
 3. **Configure Environment Variables**
-   .env backend
    ```bash
+   //.env backend
    DATABASE_URL //is mongodb url
    SECRET=ThisIsOurLittleSecret
    STRIPE_SECRET_KEY
-   .env
+
+   //.env frontend
+   REACT_APP_BASE_URL //is the base url for backend
+4. **start backend server & frontend App**
+   ```bash
+   //backend
+   nodemon index.js
+   //frontend
+   npm start
+
+## Login Credentials :
+### SuperAdmin :
+email : superadmin@app.com
+pwd   : asdfghjkl
+### Admin :
+email : admin@app.com
+pwd   : asdfghjkl
+### User
+email : user@app.com
+pwd   : asdfghjkl
+
+# Contributing
+Your contributions are always welcome! Please follow these steps:
+
+
+
