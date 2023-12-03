@@ -65,16 +65,13 @@ For a detailed walkthrough, watch our [Implementation Video]().
 
 ## Login Credentials :
 ### SuperAdmin :
-```bash
-email : superadmin@app.com
+email : superadmin@app.com , 
 pwd   : asdfghjkl
 ### Admin :
-```bash
-email : admin@app.com
+email : admin@app.com , 
 pwd   : asdfghjkl
 ### User
-```bash
-email : user@app.com
+email : user@app.com , 
 pwd   : asdfghjkl
 
 # Contributing
