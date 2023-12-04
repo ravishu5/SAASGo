@@ -8,7 +8,7 @@ Visit our live application: [SaaSGo WebApp](https://saas-tgo.vercel.app/)
 
 ## Demo Video
 
-For a detailed walkthrough, watch our [Implementation Video]().
+For a detailed walkthrough, watch our [Implementation Video](https://www.youtube.com/watch?v=vsmpp0uSkZ4).
 
 ## Features
 
