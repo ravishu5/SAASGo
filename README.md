@@ -6,6 +6,17 @@ Welcome to the repository of our SAASGo WebApp, a comprehensive platform that of
 
 Visit our live application: [SaaSGo WebApp](https://saas-tgo.vercel.app/)
 
+## Login Credentials :
+### SuperAdmin :
+email : superadmin@app.com , 
+pwd   : asdfghjkl
+### Admin :
+email : admin@app.com , 
+pwd   : asdfghjkl
+### User
+email : user@app.com , 
+pwd   : asdfghjkl
+
 ## Demo Video
 
 For a detailed walkthrough, watch our [Implementation Video](https://www.youtube.com/watch?v=vsmpp0uSkZ4).
@@ -35,10 +46,7 @@ For a detailed walkthrough, watch our [Implementation Video](https://www.youtube
 
 ### Installation
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/knehaa/subscription-services.git
-2. **Install Dependencies**
+1. **Install Dependencies**
     ```bash
    //For frontend : 
    cd frontend
@@ -47,7 +55,7 @@ For a detailed walkthrough, watch our [Implementation Video](https://www.youtube
    // For backend :
    cd backend
    npm install
-3. **Configure Environment Variables**
+2. **Configure Environment Variables**
    ```bash
    //.env backend
    DATABASE_URL //is mongodb url
@@ -56,23 +64,12 @@ For a detailed walkthrough, watch our [Implementation Video](https://www.youtube
 
    //.env frontend
    REACT_APP_BASE_URL //is the base url for backend
-4. **start backend server & frontend App**
+3. **start backend server & frontend App**
    ```bash
    //backend
    nodemon index.js
    //frontend
    npm start
-
-## Login Credentials :
-### SuperAdmin :
-email : superadmin@app.com , 
-pwd   : asdfghjkl
-### Admin :
-email : admin@app.com , 
-pwd   : asdfghjkl
-### User
-email : user@app.com , 
-pwd   : asdfghjkl
 
 # Contributing
 Your contributions are always welcome!
